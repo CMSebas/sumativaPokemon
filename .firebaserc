@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pokemon-376d7": {
+      "hosting": {
+        "app": [
+          "pokemon-376d7"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pokemon-376d7"
+  }
+}

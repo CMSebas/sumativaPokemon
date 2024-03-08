@@ -1,0 +1,41 @@
+
+<ion-content class="hola" [fullscreen]="true">
+
+
+  <ion-card class="container" >
+    <ion-label>Escribe el nombre:  </ion-label>
+    <ion-input [(ngModel)]="id"></ion-input>
+    
+    <section class="button-section">
+      <ion-button (click)="getPokemonDataID('cambio',id)"  id="miBoton" >CONSULTAR</ion-button>
+    </section>
+    <section class="image-section">
+      <ion-img [src]=pokemon.sprites.front_default></ion-img>
+    </section>
+    
+      <ion-label>Nombre:  </ion-label>
+      <ion-label *ngFor="let type of typesList"> {{ id }} </ion-label>
+      <hr>
+      <ion-label>Tipo:  </ion-label>
+      <ion-label *ngFor="let type of typesList">{{ type }} </ion-label>
+ 
+  </ion-card>
+
+          
+            
+            
+          
+        
+           
+        
+
+  
+ 
+
+
+
+
+
+
+
+</ion-content>
